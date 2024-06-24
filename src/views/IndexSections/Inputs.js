@@ -35,7 +35,7 @@ class Inputs extends React.Component {
   render() {
     return (
       <>
-        <section className="section pb-0 section-components">
+        <section className="section pb-0 section-components hidden">
           <Container className="mb-5">
             {/* Inputs */}
             <h3 className="h4 text-success font-weight-bold mb-4">Inputs</h3>

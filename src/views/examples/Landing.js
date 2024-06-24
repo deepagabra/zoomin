@@ -75,7 +75,7 @@ class Landing extends React.Component {
                     <Col lg="6">
                       <h1 className="display-3 text-white">
                         A beautiful Design System{" "}
-                        <span>completed with examples</span>
+                        <span>completed with examplesssss</span>
                       </h1>
                       <p className="lead text-white">
                         The design system comes with four pre-built pages to

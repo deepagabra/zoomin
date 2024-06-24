@@ -39,7 +39,7 @@ class Navbars extends React.Component {
   render() {
     return (
       <>
-        <section>
+        <section className="hidden">
           <Container>
             {/* Navigation */}
             <h2 className="mb-5">

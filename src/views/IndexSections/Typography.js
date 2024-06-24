@@ -24,6 +24,7 @@ class Typography extends React.Component {
   render() {
     return (
       <>
+      <div className="hidden">
         <h2 className="mt-lg mb-5">
           <span>Typography</span>
         </h2>
@@ -353,6 +354,7 @@ class Typography extends React.Component {
             />
           </Col>
         </Row>
+        </div>
       </>
     );
   }

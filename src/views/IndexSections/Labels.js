@@ -24,6 +24,7 @@ class Labels extends React.Component {
   render() {
     return (
       <>
+      <div className="hidden">
         <Col lg="5">
           <h3 className="h4 text-success font-weight-bold mb-5">Labels</h3>
           <Badge className="text-uppercase" color="primary" pill>
@@ -42,6 +43,7 @@ class Labels extends React.Component {
             Info
           </Badge>
         </Col>
+        </div>
       </>
     );
   }

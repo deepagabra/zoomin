@@ -24,6 +24,7 @@ class BasicElements extends React.Component {
   render() {
     return (
       <>
+      <div className="hidden m-0 p-0">
         <section
           className="section section-components pb-0"
           id="section-components"
@@ -33,7 +34,7 @@ class BasicElements extends React.Component {
               <Col lg="12">
                 {/* Basic elements */}
                 <h2 className="mb-5">
-                  <span>Basic Elements</span>
+                  <span>Basic Elementsss</span>
                 </h2>
                 {/* Buttons */}
                 <h3 className="h4 text-success font-weight-bold mb-4">
@@ -210,6 +211,7 @@ class BasicElements extends React.Component {
             </Row>
           </Container>
         </section>
+        </div>
       </>
     );
   }

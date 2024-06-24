@@ -39,7 +39,7 @@ class Menus extends React.Component {
   render() {
     return (
       <>
-        <Row className="justify-content-center mt-md">
+        <Row className="justify-content-center mt-md hidden">
           <Col lg="12">
             {/* Menu */}
             <h3 className="h4 text-success font-weight-bold mb-4">Menu</h3>
@@ -133,7 +133,7 @@ class Menus extends React.Component {
                   </Container>
                 </Navbar>
               </Col>
-              <Col className="mt-4 mt-lg-0" lg="6">
+              <Col className="mt-4 mt-lg-0 hidden" lg="6">
                 <div className="mb-3">
                   <small className="text-uppercase font-weight-bold">
                     With icons

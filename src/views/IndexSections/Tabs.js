@@ -46,6 +46,7 @@ class TabsSection extends React.Component {
   render() {
     return (
       <>
+      <div className="hidden">
         <h3 className="h4 text-success font-weight-bold mb-4">Tabs</h3>
         <Row className="justify-content-center">
           <Col lg="6">
@@ -238,6 +239,7 @@ class TabsSection extends React.Component {
             </Card>
           </Col>
         </Row>
+        </div>
       </>
     );
   }

@@ -24,7 +24,7 @@ class Icons extends React.Component {
   render() {
     return (
       <>
-        <section className="section section-lg section-nucleo-icons pb-250">
+        <section className="section section-lg section-nucleo-icons pb-250 hidden">
           <Container>
             <Row className="justify-content-center">
               <Col className="text-center" lg="8">

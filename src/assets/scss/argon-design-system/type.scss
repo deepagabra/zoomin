@@ -11,11 +11,12 @@ p {
   	font-weight: $lead-font-weight;
 	line-height: $paragraph-line-height;
 	margin-top: 1.5rem;
-
-	+ .btn-wrapper {
-		margin-top: 3rem;
-	}
+	display: none;
 }
+ .btn-wrapper {
+		margin-top: 16rem;
+	}
+
 
 .description {
 	font-size: $font-size-sm;

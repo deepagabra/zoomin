@@ -24,7 +24,7 @@ class PaginationSection extends React.Component {
   render() {
     return (
       <>
-        <Col lg="5">
+        <Col lg="5" className="hidden">
           <h3 className="h4 text-success font-weight-bold mb-5">Pagination</h3>
           <nav aria-label="Page navigation example" className="mb-4">
             <Pagination>

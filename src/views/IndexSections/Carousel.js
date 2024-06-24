@@ -22,17 +22,67 @@ import { Button, Container, Row, Col, UncontrolledCarousel } from "reactstrap";
 
 const items = [
   {
-    src: require("assets/img/theme/img-1-1200x1000.jpg"),
+    src: require("../../assets/img/Gallery/1.jpeg"),
     altText: "",
     caption: "",
     header: "",
   },
   {
-    src: require("assets/img/theme/img-2-1200x1000.jpg"),
+    src: require("../../assets/img/Gallery/2.jpeg"),
     altText: "",
     caption: "",
     header: "",
   },
+  {
+    src: require("../../assets/img/Gallery/3.jpeg"),
+    altText: "",
+    caption: "",
+    header: "",
+  },
+
+  {
+    src: require("../../assets/img/Gallery/4.jpg"),
+    altText: "",
+    caption: "",
+    header: "",
+  },
+
+  {
+    src: require("../../assets/img/Gallery/5.jpg"),
+    altText: "",
+    caption: "",
+    header: "",
+  },
+
+  {
+    src: require("../../assets/img/Gallery/6.jpg"),
+    altText: "",
+    caption: "",
+    header: "",
+  },
+
+  {
+    src: require("../../assets/img/Gallery/7.jpg"),
+    altText: "",
+    caption: "",
+    header: "",
+  },
+
+  {
+    src: require("../../assets/img/Gallery/8.jpg"),
+    altText: "",
+    caption: "",
+    header: "",
+  },
+
+  {
+    src: require("../../assets/img/Gallery/9.jpg"),
+    altText: "",
+    caption: "",
+    header: "",
+  },
+  
+  
 ];
 
 class Carousel extends React.Component {
@@ -52,7 +102,7 @@ class Carousel extends React.Component {
             <Row className="justify-content-between align-items-center">
               <Col className="mb-5 mb-lg-0" lg="5">
                 <h1 className="text-white font-weight-light">
-                  Bootstrap carousel
+                INFRASTRUCTURE
                 </h1>
                 <p className="lead text-white mt-4">
                   Argon Design System comes with four pre-built pages to help

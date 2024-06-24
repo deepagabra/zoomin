@@ -59,12 +59,12 @@ class CustomControls extends React.Component {
   render() {
     return (
       <>
-        <Row>
+        <Row className="hidden">
           <Col lg="3" md="6">
             {/* Checkboxes */}
             <div className="mb-3">
               <small className="text-uppercase font-weight-bold">
-                Checkboxes
+                Checkboxesss
               </small>
             </div>
             <div className="custom-control custom-checkbox mb-3">
